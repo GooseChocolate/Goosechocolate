@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel='stylesheet' href='mstyle.css'/>
+	<script src='mscript.js'></script>
+	<title>Goose Chocolate - Entertainment</title>
+</head>
+<body>
+    <img src="/resources/general-mobile/heading.png" id="header">
+    <button class="myButton">Menu</button>
+    <div id="mobilemenu">
+    <a href="index.html" ><div id="mobilenav" style="border-top:solid;border-width:1px;">Home</div></a>
+    <a href="politics.html"><div id="mobilenav">Politics</div></a>
+    <a href="tech.html"><div id="mobilenav">Technology</div></a>
+    <a href="business.html"><div id="mobilenav">Business</div></a>
+    <a href="local.html"><div id="mobilenav">Local</div></a>
+    <a href="science"><div id="mobilenav">Science</div></a>
+    <a href="entertainment.html"><div id="mobilenav">Entertainment</div></a>
+    <a href="breaking.html"><div id="mobilenav">Breaking News</div></a>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $('#mobilemenu').toggle();
+    });
+});
+</script>
+    <div id="bodymobile">
+	<p style="text-align:center;" id="headertext">Entertainment</p>
+    <div id="thumbnail">
+        <div id="thumbnail">
+	    <p id="thumbhead">A Vote Recount Leads to Leonardo Decaprio Winning an Oscar</p>
+            <a href="a-vote-recount-leads-to-leonardo-decaprio-winning-an-oscar.html" title="A Vote Recount Leads to Leonardo Decaprio Winning an Oscar"><img id="thumbpic" src="/resources/story-images/a-vote-recount-leads-to-leonardo-decaprio-winning-an-oscar.jpg">
+	    <p id="thumbdesc">LOS ANGELES, CA - Because of the number of protests of unfair judging at the Oscars, judges have revoted and Leonardo Decaprio has finally won an Oscar. Many believed that Decaprio has deserved an Oscar for years and now that he has finally won one, the countless unfunny internet memes can finally stop.</p></a>
+        </div>
+        <hr id="morehr">
+        <div id="thumbnail">
+	    <p id="thumbhead">Deadpool Twitter Account Claims to have Hacked Twitter</p>
+            <a href="deadpool-twitter-account-claims-to-have-hacked-twitter.html" title="Deadpool Twitter Account Claims to have Hacked Twitter"><img id="thumbpic" src="/resources/story-images/deadpool-twitter-account-claims-to-have-hacked-twitter.jpg">
+	    <p id="thumbdesc">SAN FRANCISCO, CA - The Deadpool Twitter accound claimed to have hacked Twitter and made a tweet longer than the usual 140 characters. This, of course, could potentially ruin Deadpool's career, as this is a very serious matter. This could possibly ruin Twitter forever if directions on how to complete this hack leaks out, as accounts could make infinitely long tweets. Twitter must fix this bug, because if Deadpool can do it, anyone can.</p></a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
