@@ -19,7 +19,7 @@ html {
 }
 
 .logobox {
-    width: 225px;
+    width: 200px;
     height: inherit;
     position: absolute;
     left: 0;
@@ -51,79 +51,6 @@ html {
 @font-face {
     font-family: HelveticaNeue;
     src: url(/resources/fonts/helvetica-neue.ttf);
-}
-
-#thumbpic1 {
-    width: 100%;
-    height: 87%;
-    float: left;
-    z-index: -1;
-    transition: .2;
-}
-
-#thumbnail1 {
-    position: relative;
-    margin-left: 2.5%;
-    margin-right: 1%;
-    width: 50%;
-    height: 87%;
-    border: 1px hidden black;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    opacity: 1;
-    float: left;
-    box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.75);
-    border-radius: 4px;
-}
-
-#thumbnail1:after {
-    content: '';
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    position: absolute;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 1) 100%);
-    opacity: 1;
-    transition: opacity .2s;
-}
-
-#thumbnail1:hover:after {
-    opacity: .9;
-}
-
-#thumbtext1 {
-    float: left;
-    position: absolute;
-    margin-left: 4%;
-    margin-right: 0.5%;
-    margin-top: 39%;
-    width: 92%;
-    color: #f0f0f0;
-    z-index: 1;
-    transition: opacity .2s;
-    transition: color .2s;
-}
-
-#thumbhead1 {
-    font-size: 4vmin;
-    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
-    font-weight: 900;
-}
-
-#thumbdesc1 {
-    font-size: 2vmin;
-    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
-    overflow: hidden;
-    margin-top: -1%;
-}
-
-#thumbdate1 {
-    font-size: 2vmin;
-    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
-    color: #bfbfbf;
-    margin-top: -4%;
 }
 
 #thumbnail {
@@ -194,7 +121,7 @@ html {
     line-height: 25px;
 }
 
-#headertext {
+header {
     font-size: 50px;
     margin-left: 5%;
     font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
@@ -203,7 +130,7 @@ html {
     width: 85%;
 }
 
-.body2 #headertext {
+.body2 header {
     float: right;
     font-size: 50px;
     margin-right: 5%;
@@ -213,12 +140,12 @@ html {
     width: 85%;
 }
 
-#headertext1 {
+header1 {
     font-size: 5vmin;
     color: #262626;
 }
 
-#headertext1:hover {
+header1:hover {
     color: #929292;
 }
 
@@ -399,7 +326,7 @@ a {
     line-height: 25px;
 }
 
-#headertext {
+header {
     font-size: 50px;
     margin-left: 5%;
     font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
@@ -408,7 +335,7 @@ a {
     width: 85%;
 }
 
-.body2 #headertext {
+.body2 header {
     float: right;
     font-size: 50px;
     margin-right: 5%;
@@ -418,12 +345,12 @@ a {
     width: 85%;
 }
 
-#headertext1 {
+header1 {
     font-size: 50px;
     color: #262626;
 }
 
-#headertext1:hover {
+header1:hover {
     color: #929292;
 }
 
@@ -752,7 +679,7 @@ img:hover {
     }
 }
 
-@media (min-width: 901px) and (max-width: 1300px) {
+@media (min-width: 933px) and (max-width: 1300px) {
     
 @font-face {
     font-family: Roboto-Light;
@@ -931,7 +858,7 @@ img:hover {
         display:none;
     }
 }
-@media (min-width: 700px) and (max-width: 900px) {
+@media (min-width: 700px) and (max-width: 923px) {
         
 @font-face {
     font-family: Roboto-Light;
@@ -967,12 +894,12 @@ img:hover {
 }
 
 
-#headertext {
+header {
     margin-top:15%;
     font-size: 40px;
 }
 
-.body2 #headertext {
+.body2 header {
     font-size: 40px;
 }
 #leftnav {
@@ -1160,11 +1087,11 @@ img:hover {
 }
 
 
-#headertext {
+header {
     font-size: 40px;
 }
 
-.body2 #headertext {
+.body2 header {
     font-size: 40px;
 }
 #leftnav {
@@ -1466,15 +1393,12 @@ img:hover {
     font-family: arial;
 }
 
-.footer {
+footer {
     width: 100%;
     background-color: #4E5DB0;
     height: 10%;
     float: left;
     box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.75);
-}
-
-#footertext {
     height: 10%;
     font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
     color: white;
